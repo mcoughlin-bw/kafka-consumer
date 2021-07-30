@@ -10,4 +10,8 @@ class KafkaConsumerApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    void failingTest() {
+        assert true == false;
+    }
 }
